@@ -1,0 +1,408 @@
+.vDashPost {
+	width: 90%;
+	height: auto;
+	
+	margin-bottom: 15px;
+	padding: 15px;
+
+	background-color: #f5f5f5;
+
+	vertical-align: top;
+}
+
+.vDashPost span {
+	margin-right: 30px;
+}
+
+.vDashStats {
+	width: 90%;
+	max-width: 310px;
+	height: auto;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	background-color: #f5f5f5;
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.vDashStats ul, vDashPost ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+		.vDashStats li {
+			display: inline-block;
+			margin: 5px;
+			padding: 5px;
+			width: 120px;
+			height: 98px;
+			background-color: white;
+
+			text-align: center;
+		}
+
+			.vDashStats li h1 {
+				margin: 0;
+				margin-top: 5px;
+				color: gray;
+				font-weight: 300;
+				font-size: 20px;
+			}
+
+			.vDashStats li h2 {
+				font-size: 38px;
+			    font-weight: 300;
+			    margin: 0;
+			    margin-top: 5px;
+			    color: #4d4d4d;
+			}
+
+	.vDashStats a {
+		text-decoration: none;
+	}
+
+.vDashStatsTable {
+	width: 90%;
+	max-width: 310px;
+	height: auto;
+	
+	margin-bottom: 15px;
+	margin-right: 15px;
+	padding: 15px;
+
+	background-color: #f5f5f5;
+
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+div.content .vDashStatsTable table {
+	margin: 0 auto;
+	border: none;
+	background: none;
+}
+
+	div.content .vDashStatsTable table td, div.content .vDashStatsTable table th {
+		border: none;
+		text-align: left;
+		font-size: 13px;
+	}
+
+
+li.vDashAdd {
+	background-color: #7AC251;
+}
+
+	li.vDashAdd h1, li.vDashAdd h2 {
+		color: white;
+	}
+
+li.liUpvotes {
+	background-color: #FF9300;
+}
+
+	li.liUpvotes h1, li.liUpvotes h2 {
+		color: white;
+	}
+li.liClicks {
+	background-color: #7AC251;
+}
+
+	li.liClicks h1, li.liClicks h2 {
+		color: white;
+	}
+
+li.liFollow {
+	background-color: red;
+}
+
+	li.liFollow h1, li.liFollow h2 {
+		color: white;
+	}
+
+/*jackie's css for overview page*/
+.column {
+	float: none;
+/*	width: 95%;*/
+	padding: 10px 0px;
+	height: 100%; /* Should be removed. Only for demonstration */
+	width: 280px;
+/*	border: 1px solid grey;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.vendorOverview {
+	color: #A5A5A5;
+	font-size: 11px;
+	margin-bottom: 25px;
+}
+
+.vendorOverview .trendingBargains p {
+	color: #A5A5A5;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.vendorOverview > div > div > div { 
+	background-color: white;
+}
+
+.vendorOverview h2 {
+	font-weight: normal;
+	color: #4D4D4D;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.vendorOverview .performance {
+	font-size: 16px; 
+}
+
+.column > div {
+	margin-bottom: 25px;
+}
+
+.column > div:last-of-type {
+	margin-bottom: 0px;
+}
+
+.vendorOverview .column .grid {
+	padding: 15px 15px 15px;
+}
+
+.vendorOverview .performance ul {
+	padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.vendorOverview .performance ul li {
+	width: 23%;
+	display: inline-block;
+	list-style: none;
+}
+
+.vendorOverview .performance ul li span {
+	display: block;
+	font-size: 29px;
+	font-weight: 300;
+}
+
+.externalResources a {
+	font-size: 14px;
+	text-decoration: none; 
+	color: #7AC251;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.company-address a {
+	font-size: 14px;
+	text-decoration: none; 
+	color: #A5A5A5;
+}
+
+.vendorOverview .column .vRealtimeInfo {
+	background-color: #7AC251;
+}
+
+
+/*credits*/
+a.vendor-info {
+    text-decoration: none;
+    color: #A5A5A5;
+    font-size: 16px;
+    text-align: center;
+}
+
+.vendor-info .currentTotal h3 {
+	font-size: 29px;
+	color: #7AC251;
+}
+
+.vendor-info div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.vendor-info .currentTotal {
+	width: 29%;
+	background-color: #fff;
+}
+
+.vendor-info .currentTotal span {
+	margin-top: 3px;
+	display: block;
+}
+
+.vendor-info .currentTotal div {
+	padding: 0px;
+    margin: 0px;
+    color: #7AC251;
+    font-size: 29px;
+}
+
+.vendor-info .info-content {
+	color: white;
+	font-size: 24px;
+	width: 68%;
+	padding-top: 17px;
+}
+
+.vendor-info .info-content span:last-of-type {
+	padding-left: 10px;
+}
+
+.column .trendingBargains h4 {
+	padding: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    color: #4D4D4D;
+    background-color: #D4E9FB;
+}
+
+.bargainInfo {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.bargainInfo > div:last-of-type {
+	color: #4d4d4d;
+	font-weight: 300;
+}
+
+.upVoteNum {
+display: inline-block;
+    padding-right: 15px;
+	color: orange;
+}
+
+.column .zipCode {
+	outline: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 132px;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    color: #4d4d4d;
+	border: 1px solid lightgray;
+	-moz-appearance: textfield;	
+}
+
+.vendorOverview .column .grid select {
+    width: 49px;
+    height: 30px;
+    margin: 0px 5px;
+	padding-left: 0px;
+    background-color: #F5F5F5;
+    color: #A5A5A5;
+	border: 1px solid lightgray;
+}
+
+.filtering {
+	margin: 20px 0px 5px;
+}
+
+.vendorOverview .table table {
+	width: 100%; 
+	padding: 0px 10px;
+	border: none;
+}
+
+.table > div {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+ .table > div a {
+	text-decoration: none;
+	color: #7AC251;
+}
+
+.vendorOverview div.bargain {
+	width: 100%;
+}
+
+.vendorOverview .PostButton .button {
+    margin-bottom: 0px;
+	text-transform: inherit;
+	font-weight: 400;
+}
+
+.vendorOverview div.postBargain {
+	font-size: 16px;
+}
+
+.vendorOverview div.postBargain textarea {
+	max-width: 100%;
+}
+
+.vendorOverview div.postBargain .smsnow {
+	margin-right: 5px;
+}
+
+.vendorOverview div.BargainDetails ul li {
+	padding-right: 0px;
+}
+
+.vendorOverview .table .viewBargain {
+	font-size: 16px;
+}
+
+.vendorOverview .grid .comany-title, .vendorOverview .grid .company-address {
+	display: inline-block;
+	width: 100%;
+}
+
+.vendorOverview .grid .comany-title .ratingNum {
+	padding-left: 10px;
+	color: #4d4d4d;
+}
+
+.vendorOverview .fa-star {
+	color: #FFCE00;
+}
+
+.vendorOverview .company-info .fa-star {
+	font-size: 23px;
+}
+
+.vendorOverview .company-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.vendorOverview .company-info h2 {
+	margin-bottom: 0px;
+}
+
+.externalResources a:hover, .company-address a:hover {
+    text-decoration: underline;
+}
+
+.trendingVendors {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.vendorOverview table tbody td {
+	font-size: 12px;
+}
+
+
+.vendorOverview table th, .vendorOverview table td {
+	 border: none; 
+}

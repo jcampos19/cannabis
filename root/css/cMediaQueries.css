@@ -1,0 +1,277 @@
+/*Styling for Small Sizes*/
+@media screen and (min-width: 0px) and (max-width: 675px) {
+	.accountLarge {
+		display: none;
+	}
+
+	div.maincontent .bargain {
+		float: none;
+		position: relative;
+		margin: auto;
+		margin-top: 20px;
+	    padding-top: 0;
+	    padding-left: 0;
+	    height: auto;
+	    min-width: 302px;
+	    max-width: 330px;
+		overflow-x: none;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	    background-color: white;
+	}
+
+	div.banner img {
+		float: none;
+		position: relative;
+		width: 150px;
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+		padding: 0;
+		padding-right: 80px;
+	}
+	
+	div.banner .accountSmall {
+/*
+		margin: -20px;
+		margin-right: 0px;
+		z-index: 3;
+*/
+		margin-right: 0px;
+		z-index: 14;
+		top: 4px;
+		position: absolute;
+		right: 0;
+	}
+
+	div.banner .dropdown-content {
+		margin-top: -7px;
+		right: 0px;
+	}
+	
+	div.banner.banner-search .dropdown-content {
+		margin-top: -13px;
+	}
+
+	body .nobargains {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+	}
+	
+	.FavTable .tablenum .fa-heart{
+		color: red; 
+	}
+
+	.FavTable .tablenum .fa-heart:hover {
+		color: #4d4d4d;
+	}
+
+	body .content {
+		display: block;
+		margin: auto;
+		margin-top: 20px;
+		padding: 0;
+	}
+	
+	.content.center-content {
+		margin: 0 auto;
+		padding: 50px 10px;
+		width: fit-content;
+/*		text-align: -moz-center;*/
+	}
+	
+	.content.vendor-content.center-content {
+		text-align: -moz-center;
+	}
+	
+	.content.vendor-content.center-content > div > div > div, .content.vendor-content.center-content > h3, .content.vendor-content .businessform {
+		text-align: -moz-left;
+	}
+	
+	body .content.vendor-content {
+		margin: 0 auto;
+		padding: 60px 10px 35px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 330px) {
+	div.upvote h2 {
+		padding-left: 6px; 
+	}
+}
+
+/*Styling for Large Sizes*/
+
+@media screen and (min-width: 676px) {
+	div.maincontent {
+		padding-top: 60px;
+	}
+	
+	div.banner .accountSmall {
+		display: none;
+	}
+	
+	div.banner #filterIcon, .closebtn {
+		display:none;
+	}
+	
+	div.filters {
+		width: 180px;
+    	padding-left: 30px;
+		box-shadow: none;
+	}
+	
+	div.sidenav, div.sidenav.hide-filter {
+		box-shadow: none;
+		width: 250px;
+	}
+	
+	div.banner img {
+		padding-top: 5px;
+	}
+	
+	div.banner .accountLarge {
+		padding-top: .5em;
+	}
+	
+	div.banner.banner-search {
+		height: 60px;
+	}
+	
+	div.banner.banner-search .accountLarge {
+		padding-top: 8px;
+	}
+	
+	div.banner.banner-search .search {
+    	width: auto;
+		padding-top: 5px;
+	}
+	
+	div.banner.banner-search .search input {
+		width: 100px;
+		float: right;
+	}
+	
+	div.banner.banner-search .search button {
+		float: right;
+		margin-right: -134px;
+		margin-left: 7px;
+	}
+	
+	.setAccount #registerLogo {
+		width: 342px;
+	}
+	
+	.FavTable .tablenum .fa-heart{
+		color: red; 
+	}
+
+	.FavTable .tablenum .fa-heart:hover {
+		color: #A5A5A5;
+	}
+	
+	.register-content .form-border {
+		width: 320px;
+	}
+	
+		div.content th:first-child {
+		text-align: left;
+	}
+	
+	div.content .postTitle {
+		padding-left: 0px;
+	}
+	
+	.vendor-content .postBargain .bargain {
+		margin-left: 0px;
+	}
+	
+	form.businessform, .accountSettings {
+		margin-left: 0px;
+		width: 75%;
+		max-width: 500px;
+		padding-left: 15px;
+	}
+	
+	.column {
+		width: 320px;
+	}
+	
+	.AddCredits table div {
+		margin-left: 0px;
+	}
+	
+	.social-media, div.bargain {
+    	width: 300px;
+	}
+	
+	.PayConfirm {
+		margin-right: 15px;
+	}
+
+}
+
+@media screen and (min-width: 760px) {
+	div.banner.banner-search .search input {
+    	width: 190px;
+	}
+	
+	div.banner.banner-search .search button {
+		margin-right: -224px;
+	}
+}
+
+/*Tables*/
+
+@media screen and (min-width: 0px) and (max-width: 869px) {
+	.tWords th  span:nth-of-type(1)  {
+		display: none;
+	}
+
+	body div.content .tIcons th {
+		border: none;
+		font-size: 12px;
+		outline: none;
+	}
+
+	div.content td {
+		border: none;
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 870px) {	
+	.tWords th svg {
+		display: none;
+	}
+
+	div.banner.banner-search .search input {
+		width: 275px;
+		float: right;
+		margin: 0px 25px 20px 0px;
+	}
+
+	div.banner.banner-search .search button {
+		float: right;
+		margin-right: -309px;
+	}
+	
+	.social-media {
+		margin-left: 15px;
+    	width: 286px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.vendor-info .currentTotal {
+		width: 30%;
+	}
+	
+	.column {
+        width: 45%;
+		max-width: 320px;
+		padding: 10px;
+		float: left;
+	}
+}

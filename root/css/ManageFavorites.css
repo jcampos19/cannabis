@@ -1,0 +1,60 @@
+.FavTable .dataTables_wrapper .dataTables_filter {
+	float: none;
+}
+
+.FavTable .dataTables_wrapper .dataTables_paginate {
+	float:left;
+	margin-top: -5px;
+    margin-left: 22px;
+}
+
+.FavTable .dataTables_wrapper .dataTables_length {
+	/*float: left;*/
+}
+
+.FavTable td.tablebargaintitle {
+	font-size: 16px;
+	padding-left: 15px;
+
+}
+
+.FavTable td.tablenum {
+	font-size: 16px;
+
+}
+
+.FavTable td.tablenum:hover {
+	cursor: pointer;
+}
+
+.content .FavTable table {
+	background-color: white;
+	border: none;
+}
+
+.content .FavTable td, .content .FavTable th {
+	border: none;
+
+
+}
+
+.content .FavTable td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F5F5F5;
+	font-weight: 300;
+
+}
+
+.content .FavTable th {
+	text-align: left;
+	padding-left: 15px;
+	color: #4d4d4d;
+	background-color: white;
+	padding-top: 10px;
+
+}
+
+.content .FavTable tr:nth-child(even) {
+			background-color: white;
+		}

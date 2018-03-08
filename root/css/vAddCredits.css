@@ -1,0 +1,231 @@
+body {
+
+}
+
+.AddCredits input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    width: 30px;
+    padding: 8px;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin: 0;
+    text-align: center;
+}
+
+.AddCredits #inputpromo {
+	margin: 0px 10px 10px 0px;
+    width: 185px;
+    text-align: left;
+}
+
+/*
+.AddCredits {
+	width: 90%;
+}
+*/
+
+.AddCredits ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	
+}
+
+.AddCredits ul li {
+	display: inline-block;
+}
+
+.content .AddCredits table {
+	border: none;
+	background: none;
+	padding-top: 10px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.content .AddCredits table tr:nth-child(even) {
+	background-color: none;
+}
+
+.content .AddCredits table td {
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+.content .AddCredits table tr {
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+.AddCredits table div {
+	text-align: center;
+	margin: 5px;
+	width: 200px;
+	border: 1px solid #7AC251;
+	background-color: #f5f5f5;
+}
+
+	.AddCredits table div:hover {
+		background-color: white;
+
+	}
+
+.AddCredits ul li div:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.AddCredits h1, .AddCredits h2, .AddCredits p {
+	margin: 0;
+	padding: 0;
+	color: #4d4d4d;
+	text-transform: uppercase;
+}
+
+.AddCredits h1 {
+
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: -1px;
+
+}
+
+.AddCredits h2 {
+	font-weight: 300;
+	margin-top: -7px;
+	margin-bottom: 4px;
+	font-size: 25px;
+}
+
+.AddCredits p {
+	display: inline;
+	margin: none;
+
+	color: darkgray;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.AddCredits p.CreditPrice {
+	color: #7AC251;
+	font-size: 25px;
+}
+
+.content .AddCredits table td div.CreditSelect {
+	border: none;
+	background: none;
+	width: 120px;
+	margin-right: 0;
+}
+
+.content .AddCredits table td div.CreditSelect p {
+padding-right: 3px;
+text-transform: none;
+color: gray;
+}
+
+.content .AddCredits .CreditSelect ul li {
+	display: list-item;
+	display: block;
+	padding: 5px 0px;
+
+	font-size: 16px;
+
+	width: 46px;
+
+}
+
+li.Plus {
+
+	background-color: darkgray;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 16px;
+	color: lightgray;
+	padding: 0;
+
+}
+
+li.Minus {
+
+	background-color: darkgray;
+	border-radius: 0 0 5px 5px;
+	font-size: 16px;
+	color: lightgray;
+	padding: 0;
+}
+
+li.Minus:hover, li.Plus:hover{
+	background-color: #7AC251;
+	color: white;
+	cursor: pointer;
+}
+.AddCredits button {
+	background-color: #7AC251;
+	border-radius: 0px;
+	border: none;
+	outline: none;
+	height: 30px;
+
+}
+
+.AddCredits button a {
+
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.AddCredits div.LineSep {
+	width: 90%;
+	border-top: 1px solid darkgray;
+	margin: 20px 0px;
+}
+
+.CreditSelect input::placeholder {
+	text-align: center;
+}
+
+body .content .AddCredits .PayConfirm table {
+	width: 90%;
+	max-width: none;
+}
+
+.PayConfirm {
+	background: #f5f5f5;
+	padding: 15px;
+}
+
+.PayConfirm table th {
+	background: none;
+	color: #4d4d4d;
+	border: none;
+	border-bottom: 1px solid lightgray; 
+	padding: 0;
+	padding-bottom: 5px;
+	text-transform: none;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 300;	
+}
+
+.PayConfirm table tr {
+	font-size: 14px;
+
+	}
+
+.content .AddCredits .PayConfirm  table td {
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.content .AddCredits  table td.TotalBalance{
+	font-weight: 700;
+}

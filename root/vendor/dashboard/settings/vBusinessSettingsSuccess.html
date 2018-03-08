@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bud Bargains</title>
+
+	<link rel="stylesheet" type="text/css" href="../../../css/cStyle.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/VDstyle.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/vsettings.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/cMediaQueries.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script type="application/javascript" src="../../../js/main.js"></script>
+
+</head>
+<body>
+	
+	<div class="banner">		
+		<ul id="filterIcon">
+			<li>
+				<a href="#" id="sidebar-toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</a>
+			</li>
+		</ul>
+
+		<a href="../vOverview.html">
+			<img src="../../../images/BBlogoWhite.svg" alt="bud bargains" width="200px">
+		</a>
+
+		<ul class="accountSmall">
+			<li><div class="dropdown">
+    				<button class="dropbtn"><span class="fas fa-user"></span><span class="fas fa-caret-down"></span>
+    				</button> 
+	    				<div class="dropdown-content">
+					      <a href="../vPostBargain.html"><span class="fas fa-edit">           		</span> Post Bargain</a>
+					      <a href="../vAddCredits.html"><span class="fas fa-plus">           		</span> Add Credits</a>
+					      <a href="../vOverview.html"><span class="fas fa-chart-area">     			</span> Overview</a>
+					      <a href="../todaysbargains.html"><span class="far fa-newspaper">      	</span> Bargains</a>
+                          <a href="../bargainhistory.html"><span class="fas fa-history">        	</span> History</a>
+                          <a href="../../bargainstream_vSignedin.html"><span class="fas fa-rss">	</span> Bargain Stream</a>
+                          <a href="../vTransactions.html"><span class="fas fa-dollar-sign">  		</span> Transactions</a>
+                          <a href="../vSettings.html"><span class="fas fa-cog">            			</span> Settings</a>
+						  <a href="../../../About.html"><span class="fas fa-users"></span> About Us</a>
+					      <a href="#"><span class="fas fa-sign-out-alt">   							</span> Sign Out</a>
+					    </div>
+    			</div> </li>
+		</ul>
+		<ul class="accountLarge">
+			<li><div class="dropdown">
+    				<button class="dropbtn"><span class="fas fa-user"></span> The Leafy Meadow <span class="fas fa-caret-down"></span>
+    				</button> 
+	    				<div class="dropdown-content">
+					      <a href="../vPostBargain.html"><span class="fas fa-edit">           		</span> Post Bargain</a>
+					      <a href="../vAddCredits.html"><span class="fas fa-plus">           		</span> Add Credits</a>
+					      <a href="../vOverview.html"><span class="fas fa-chart-area">     			</span> Overview</a>
+					      <a href="../todaysbargains.html"><span class="far fa-newspaper">      	</span> Bargains</a>
+                          <a href="../bargainhistory.html"><span class="fas fa-history">        	</span> History</a>
+                          <a href="../../bargainstream_vSignedin.html"><span class="fas fa-rss">	</span> Bargain Stream</a>
+                          <a href="../vTransactions.html"><span class="fas fa-dollar-sign">  		</span> Transactions</a>
+                          <a href="../vSettings.html"><span class="fas fa-cog">            			</span> Settings</a>
+						  <a href="../../../About.html"><span class="fas fa-users"></span> About Us</a>
+					      <a href="../../../bargainstream.html"><span class="fas fa-sign-out-alt">   							</span> Sign Out</a>
+					    </div>
+    			</div> </li>
+    		</ul>
+	</div>
+
+	<div class="cleardiv"> </div>
+	
+	<div id="close-sidebar" class="sidenav">	
+
+	<div class="post">
+
+			<ul>
+				<li><a href="../vPostBargain.html"> <span class="fas fa-edit" 			
+					style="font-size: 18px; margin-right: 15px"> </span> Post Bargain </a> 			</li>
+					
+				<li><a href="../vAddCredits.html"> <span class="fas fa-plus" 			
+					style="font-size: 18px; margin-right: 15px"> </span> Add Credits </a> 			</li>
+
+			</ul>
+	</div>
+
+
+
+		<div class="vdashmenu">
+
+			<ul>
+				<li><a href="../vOverview.html"> <span class="fas fa-chart-line"	
+					style="font-size: 18px; margin-right: 15px"> </span> Overview </a> 				</li>
+				
+				<li><a href="../todaysbargains.html">	<span class="far fa-newspaper"
+				 	style="font-size: 18px; margin-right: 15px"> </span> Today's Bargains </a> 		</li>
+				
+				<li><a href="../bargainhistory.html">	<span class="fas fa-history" 		
+					style="font-size: 18px; margin-right: 15px"> </span> Bargain History </a> 		</li>
+				
+				<li><a href="../../bargainstream_vSignedin.html">  <span class="fas fa-rss"            
+                    style="font-size: 18px; margin-right: 15px"> </span> View Bargain Stream </a>   </li>
+                
+                <li><a href="../vTransactions.html"> <span class="fas fa-dollar-sign"  
+                    style="font-size: 18px; margin-right: 15px"> </span> Transactions </a>          </li>
+                
+                <li class="../activemenulist"><a class="activemenulink" href="../vSettings.html"> <span class="fas fa-cog" 			
+					style="font-size: 18px; margin-right: 15px"> </span> Settings </a> 				</li>
+					
+                <li><a href="../../../bargainstream.html">    <span class="fas fa-sign-out-alt"   
+                    style="font-size: 18px; margin-right: 15px"> </span> Sign Out </a>              </li>
+			</ul>
+		</div>
+	
+
+	</div>
+
+	<div class="content vendor-content center-content">
+		<h3>Success!</h3>
+		<form>
+			<p>Your changes have been saved!</p>
+			<br><br>
+			<div class="btn-submit">
+				<a href="../vSettings.html" class="btn-grey-green btn-lg" name="submit">Settings</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

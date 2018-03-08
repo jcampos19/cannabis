@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.aboutUs {
+	padding: 15px;
+	max-width: 900px;
+	color: #4d4d4d;
+	line-height: 160%
+}
+
+.aboutUs a, .aboutUs ol li a, .aboutUs ul li a {
+	color: #7AC251;
+}
+
+.aboutUs a:hover, .aboutUs ol li a:hover, .aboutUs ul li a:hover {
+	color: #FF9300;
+}
+
+.aboutUs li {
+	margin: 15px 0px;
+	max-width: 500px;
+}
+
+.aboutUs h3 {
+	margin-top: 40px;
+}
+
+.aboutUs h4 {
+	color: #7ac251;
+}
+
+.ListTopics {
+	color: #7ac251;
+	font-weight: 700;
+}

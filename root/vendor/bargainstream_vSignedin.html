@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bud Bargains</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/cStyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/cMediaQueries.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+	<div class="banner banner-search">
+		<ul id="filterIcon">
+			<li>
+				<a href="#" id="cSidebar-toggle">
+					<i class="fas fa-filter" aria-hidden="true"></i>
+				</a>
+			</li>
+		</ul>
+		
+		<a href="dashboard/vOverview.html">
+		<img src="../images/BBlogoWhite.svg" alt="bud bargains" width="200px">
+		</a>
+		
+		<ul class="accountSmall">
+			<li><div class="dropdown">
+    				<button class="dropbtn"><span class="fas fa-user"></span><span class="fas fa-caret-down"></span>
+    				</button> 
+	    				<div class="dropdown-content">
+					      <a href="dashboard/vPostBargain.html"><span class="fas fa-edit">           	</span> Post Bargain</a>
+					      <a href="dashboard/vAddCredits.html"><span class="fas fa-plus">           	</span> Add Credits</a>
+					      <a href="dashboard/vOverview.html"><span class="fas fa-chart-area">     		</span> Overview</a>
+					      <a href="dashboard/todaysbargains.html"><span class="far fa-newspaper">      	</span> Bargains</a>
+                          <a href="dashboard/bargainhistory.html"><span class="fas fa-history">        	</span> History</a>
+                          <a href="bargainstream_vSignedin.html"><span class="fas fa-rss">				</span> Bargain Stream</a>
+                          <a href="dashboard/vTransactions.html"><span class="fas fa-dollar-sign">  	</span> Transactions</a>
+                          <a href="dashboard/vSettings.html"><span class="fas fa-cog">            		</span> Settings</a>
+						  <a href="../about.html"><span class="fas fa-users"></span> About Us</a>
+					      <a href="../bargainstream.html"><span class="fas fa-sign-out-alt">   								</span> Sign Out</a>
+					    </div>
+    			</div> </li>
+		</ul>
+		<ul class="accountLarge">
+			<li><div class="dropdown">
+    				<button class="dropbtn"><span class="fas fa-user"></span> The Leafy Meadow <span class="fas fa-caret-down"></span>
+    				</button> 
+	    				<div class="dropdown-content">
+					      <a href="dashboard/vPostBargain.html"><span class="fas fa-edit">           	</span> Post Bargain</a>
+					      <a href="dashboard/vAddCredits.html"><span class="fas fa-plus">           	</span> Add Credits</a>
+					      <a href="dashboard/vOverview.html"><span class="fas fa-chart-area">     		</span> Overview</a>
+					      <a href="dashboard/todaysbargains.html"><span class="far fa-newspaper">      	</span> Bargains</a>
+                          <a href="dashboard/bargainhistory.html"><span class="fas fa-history">        	</span> History</a>
+                          <a href="bargainstream_vSignedin.html"><span class="fas fa-rss">				</span> Bargain Stream</a>
+                          <a href="dashboard/vTransactions.html"><span class="fas fa-dollar-sign">  	</span> Transactions</a>
+                          <a href="dashboard/vSettings.html"><span class="fas fa-cog">            		</span> Settings</a>
+						  <a href="../about.html"><span class="fas fa-users"></span> About Us</a>
+					      <a href="../bargainstream.html"><span class="fas fa-sign-out-alt">   								</span> Sign Out</a>
+					    </div>
+    			</div> </li>
+    		</ul>
+
+		<div class="search">
+			<input type="search" name="search" placeholder="search">
+			<button type="submit"><span class="fas fa-search"></span></button>
+		</div>
+	</div>
+	
+
+	<div class="cleardiv"> </div>
+	
+	<div class="maincontent">
+		<div class="bargain">
+			<div class="BargainTitle">
+				<h1> Alpine Disposable Vaporizer Pens And A Bunch of Stuff</h1>
+			</div>
+			<div class="BargainDescrip">
+				<p> Blue Crush 5oz + prerolled cone + free lighter Blue Crush 5oz + prerolled cone + Blue Crush 5oz + p </p>
+			</div>
+
+			<div class="paymethod">
+				<ul>
+					<li> 
+						<span class="far fa-money-bill-alt fa-fw"></span>	
+					</li>
+					<li> 
+						<span class="fas fa-credit-card fa-fw"></span>	
+					</li>
+					<li> 
+						<span class="fab fa-bitcoin fa-fw"></span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="BargainDetails">
+				<ul>
+					<li>	
+						<img  src="../images/mjLeaf.svg" alt="leaf">	
+					</li>
+					<li>	
+						Extract								
+					</li>
+				</ul>
+				<ul>
+					<li>	
+						<img  src="../images/delivery.svg" alt="deliver">		
+					</li>
+					<li>	
+						Delivery Available					
+					</li>
+				</ul>
+
+				<div class="smsnow">
+					<button class="button" onClick="enableSMS()">SMS Now</button>
+				</div>
+
+				<h2> $200.00 </h2>
+				<h3> The Leafy Meadow </h3> <h5>2.4 mi</h5>
+				<h6># A10-18-0000113-TEMP</h6>
+				<h6> Open: 10:00am - 11:00pm </h6> 
+
+				<div class="StarRatings starsDisabled">
+					<span class="fas fa-star checked">	</span>
+					<span class="fas fa-star checked">	</span>
+					<span class="fas fa-star checked">	</span>
+					<span class="fas fa-star">			</span>
+					<span class="fas fa-star">			</span>
+					
+					<button class="button btnRating" onclick="chkStarRating()">Rate</button>
+				</div>
+				
+				<div class="cleardiv"> </div>
+
+				<div class="upvote">
+					<table class="social-media-table">
+					<thead>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<a href="#">
+								<td class="upVoteNum">0
+								</td> 
+								<td>
+									<span class="fas fa-thumbs-up">	</span>
+								</td>
+							</a>
+							<td class="tablespacer"></td>
+							<td>
+								<a href="tel:+1-111-111-111"> <span class="fas fa-phone"> 		</span>	</a>
+							</td>
+							<td>
+								<a href="#" target="_blank"> <span class="fas fa-globe"> 		</span>	</a>
+							</td>
+							<td>
+								<a href="https://www.google.com/maps/search/?api=1&parameters"> <span class="fas fa-map-marker">	</span>	</a>
+							</td>
+							<td>
+								<a href="#" onclick="showSocialMedia()" class="dropbtn"> <span class="fas fa-share-alt">	</span>	</a>
+							</td>
+							<td>
+								<a href="#"> <span class="fas fa-heart">		</span>	</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+				
+				<div id="shareDropdown" class="social-media dropdown-content">
+					<br>
+					<h3>Share</h3>
+					<div><br>
+						<a href="#"><span class="fab fa-facebook-f"></span></a>
+						<a href="#"><span class="fab fa-facebook-messenger"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-whatsapp"></span></a>
+						<a href="#"><span class="fab fa-reddit-alien"></span></a>
+					</div>
+					<br>
+					<div class="shareLink">
+						<input type="text" value="youtube.com/test" id="generatedUrl">
+						<button style="text-align: right;" onclick="copyText()">Copy Text</button>
+					</div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="close-sidebar" class="filters">
+		<div class="location">
+			<input type="number" name="zip" placeholder="Zip Code..">
+			<input type="range" min="5" max="50" step="5">
+			<ul>
+				<li>				5 mi 					</li>
+				<li class="second">	50 mi 	</li>
+			</ul>
+			<button class="button">Set Distance</button>
+		</div>
+
+		<div class="table">
+			<table class="SMS">
+				<tr> 
+					<td>SMS Now 		</td>	
+					<td> <input type="checkbox" name="filters"> </td> 
+				</tr>
+			</table>	
+		</div>
+		
+		<div class="table">
+			<table>
+				<th>Sort By</th>
+			</table>
+			<select name="sort"> 
+				<option value="All">		View All 	</option>
+				<option value="Uptokes">	Uptokes 	</option>
+				<option value="Price">		Price 		</option>
+				<option value="Distance">	Distance 	</option>
+				<option value="New">		New 		</option>
+				<option value="Delivery">	Delivery 	</option>
+			</select>	
+		</div>
+
+		<div class="table">
+			<table>  
+				<th>Filter</th>
+				<tr> <td>All Bargains 	</td>	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Following 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Indica 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Sativa 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Hybrid 		</td>	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Extract 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Edible 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Topicals 		</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Grow 			</td> 	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Accessories 	</td>	<td> <input type="checkbox" name="filters"> </td> </tr>
+				<tr> <td>Combo 			</td>	<td> <input type="checkbox" name="filters"> </td> </tr>
+			</table>	
+
+			<button class="button">Uncheck All</button>
+
+		</div>
+	</div>
+	
+	<div class="footer">
+	</div>
+	
+</body>
+</html>

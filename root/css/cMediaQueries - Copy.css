@@ -1,0 +1,338 @@
+/*Styling for Small Sizes*/
+@media screen and (min-width: 0px) and (max-width: 580px) {
+	.accountLarge {
+		display: none;
+	}
+
+	div.maincontent .bargain {
+		float: none;
+		position: relative;
+		margin: auto;
+		margin-top: 20px;
+	    padding-top: 0;
+	    padding-left: 0;
+	    height: auto;
+	    width: 100%;
+	    max-width: 330px;
+		min-width: 300px;
+		overflow-x: none;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	    background-color: white;
+	}
+
+	div.banner img {
+		float: none;
+		position: relative;
+		width: 150px;
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+		padding: 0;
+		padding-right: 65px;
+	}
+	
+	div.banner .accountSmall {
+		margin: -20px;
+		margin-right: 0px;
+	}
+
+	div.banner .dropdown-content {
+		margin-top: -7px;
+/*    	margin-left: -160px;*/
+		right: 0px;
+	}
+	
+	div.banner.banner-search .dropdown-content {
+		margin-top: -13px;
+	}
+
+	body .nobargains {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+	}
+	
+	.FavTable .tablenum .fa-heart{
+		color: red; 
+	}
+
+	.FavTable .tablenum .fa-heart:hover {
+		color: #4d4d4d;
+	}
+
+	body .content {
+		display: block;
+		margin: auto;
+		margin-top: 20px;
+		padding: 0;
+	}
+	
+	.content.center-content {
+		margin: 0 auto;
+		text-align: center;
+		padding: 50px 10px;
+		width: fit-content;
+	}
+	
+	body .content.vendor-content {
+		margin: 0 auto;
+		padding: 60px 10px 35px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 330px) {
+	div.upvote h2 {
+		padding-left: 6px; 
+
+	}
+}
+
+/*Styling for Large Sizes*/
+
+@media screen and (min-width: 581px) {
+	div.maincontent {
+		padding-top: 60px;
+	}
+	
+	div.banner .accountSmall {
+		display: none;
+	}
+	
+	.signInMenu ul.accountSmall {
+		display:block;
+		margin: -20px;
+		margin-right: 0px;
+	}
+	
+	.signInMenu ul.accountLarge {
+		display:none;
+	}
+	
+	div.banner #filterIcon, .closebtn {
+		display:none;
+	}
+	
+	.signInMenu div.banner #filterIcon {
+		display: block;
+	}
+	
+	div.filters {
+		width: 180px;
+    	padding-left: 30px;
+		box-shadow: none;
+	}
+	
+	.signInMenu div.filters {
+		width: 0px;
+    	padding-left: 0px;
+		box-shadow: black 0px 8px 16px;
+	}
+	
+	.signInMenu div.banner.banner-search {
+		height: 90px;
+	}
+	
+	div.sidenav, div.sidenav.hide-filter {
+		box-shadow: none;
+		width: 250px;
+	}
+	
+	div.banner img {
+		padding-top: 5px;
+	}
+	
+	.signInMenu div.banner img {
+		float: none;
+		position: relative;
+		width: 150px;
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+		padding: 0;
+		padding-right: 65px;
+	}
+	}	
+	
+	div.banner .accountLarge {
+		padding-top: .5em;
+	}
+	
+	div.banner.banner-search {
+		height: 60px;
+		padding-top: .6em;
+	}
+	
+	div.banner.banner-search .accountLarge {
+		padding-top: 8px;
+	}
+	
+	div.banner.banner-search .search {
+    	width: auto;
+		padding-top: 5px;
+	}
+	
+	div.banner.banner-search .search input {
+		width: 100px;
+		float: right;
+	}
+	
+	.signInMenu div.banner.banner-search .search input {
+		width: calc(100% - 50px);
+		float: left;
+		margin: 0;
+	}
+	
+	div.banner.banner-search .search button {
+		float: right;
+		margin-right: -134px;
+		margin-left: 7px;
+	}
+	
+	.setAccount #registerLogo {
+		width: 342px;
+	}
+	
+	.FavTable .tablenum .fa-heart{
+		color: red; 
+	}
+
+	.FavTable .tablenum .fa-heart:hover {
+		color: #4d4d4d;
+	}
+	
+	.register-content .form-border {
+		width: 320px;
+	}
+	
+		div.content th:first-child {
+		text-align: left;
+	}
+	
+	div.content .postTitle {
+		padding-left: 0px;
+	}
+	
+	.vendor-content .postBargain .bargain {
+		margin-left: 0px;
+	}
+	
+	form.businessform {
+		margin-left: 0px;
+		width: 75%;
+		max-width: 500px;
+		padding-left: 15px;
+	}
+	
+	.column {
+        width: 45%;
+		max-width: 320px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	div.banner.banner-search .search input {
+    	width: 246px;
+	}
+	
+	div.banner.banner-search .search button {
+		margin-right: -280px;
+	}
+	
+	.signInMenu div.banner.banner-search .search button {
+		float: right;
+		margin-right: -134px;
+		margin-left: 7px;
+	}
+	
+	.signInMenu ul.accountSmall {
+		display:none;
+	}
+	
+	.signInMenu ul.accountLarge {
+		display:block;
+	}
+	
+	.signInMenu div.filters {
+		width: 180px;
+    	padding-left: 30px;
+		box-shadow: none;
+	}
+	
+	.signInMenu div.banner img {
+		padding-top: 5px;
+	}
+	
+	.signInMenu div.banner .accountLarge {
+		padding-top: .5em;
+	}
+	
+	.signInMenu div.banner.banner-search {
+		height: 60px;
+		padding-top: .6em;
+	}
+	
+	.signInMenu div.banner.banner-search .accountLarge {
+		padding-top: 8px;
+	}
+	
+	.signInMenu div.banner.banner-search .search {
+    	width: auto;
+		padding-top: 5px;
+	}
+	
+	.signInMenu div.banner.banner-search .search input {
+		width: 100px;
+		float: right;
+	}
+	
+	.signInMenu	div.banner #filterIcon {
+		display:none;
+	}
+	
+	.signInMenu div.banner img {
+		padding-top: 5px;
+	}	
+	
+	.signInMenu	div.banner.banner-search .search input {
+		width: 100px;
+		float: right;
+	}
+}
+
+/*Tables*/
+
+@media screen and (min-width: 0px) and (max-width: 869px) {
+	.tWords th  span:nth-of-type(1)  {
+		display: none;
+	}
+
+	body div.content .tIcons th {
+		border: none;
+		font-size: 12px;
+		outline: none;
+	}
+
+	div.content td {
+		border: none;
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 870px) {	
+	.tWords th svg {
+		display: none;
+	}
+
+	div.banner.banner-search .search input {
+		width: 300px;
+		float: right;
+		margin: 0px 25px 20px 0px;
+	}
+
+	div.banner.banner-search .search button {
+		float: right;
+		margin-right: -334px;
+	}
+
+}
